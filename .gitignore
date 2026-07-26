@@ -1,41 +1,26 @@
-# .gitignore
+# Ignore cargo artifacts
+target/
 
-# Ignore build artifacts
-target/*
-dist/*
+# Ignore cargo lock
+Cargo.lock
 
-# Ignore IDE files
+# Ignore node_modules
+node_modules/
+
+# Ignore .git directory
+.git/
+
+# Ignore cargo build cache
+.cargo/
+
+# Ignore cargo check results
+check/
+
+# Ignore .idea directory
 .idea/
+
+# Ignore .vscode directory
 .vscode/
 
-# Ignore virtual environment
-venv/
-
-# Ignore logs
-logs/
-
-# Ignore database migrations
-db/migrations/
-
-# Ignore test files
-tests/*.pyc
-
-# Ignore generated files
-auth.pyc
-models.pyc
-schemas.pyc
-
-# Ignore temporary files
-*.tmp
-*.lock
-
-# Ignore editor backups
-*.swp
-
-# Ignore macOS specific files
+# Ignore .DS_Store files
 .DS_Store
-
-# Ignore Windows specific files
-Thumbs.db
-ehthumbs.db
-```
