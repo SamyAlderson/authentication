@@ -1,0 +1,41 @@
+# .gitignore
+
+# Ignore build artifacts
+target/*
+dist/*
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore virtual environment
+venv/
+
+# Ignore logs
+logs/
+
+# Ignore database migrations
+db/migrations/
+
+# Ignore test files
+tests/*.pyc
+
+# Ignore generated files
+auth.pyc
+models.pyc
+schemas.pyc
+
+# Ignore temporary files
+*.tmp
+*.lock
+
+# Ignore editor backups
+*.swp
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+```
